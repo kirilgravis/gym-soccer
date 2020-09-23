@@ -24,5 +24,5 @@ register(
     entry_point='gym.envs:SoccerAgainstKeeperEnv',
     timestep_limit=1000,
     reward_threshold=8.0,
-    nondeterministic = True,
+    nondeterministic=True,
 )
